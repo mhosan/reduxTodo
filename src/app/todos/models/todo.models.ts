@@ -5,7 +5,7 @@ export class Todo {
 
     constructor(texto: string) {
         this.texto = texto;
-        this.id = new Date().getTime();
+        this.id = new Date().getTime(); //milisengundos desde el 1 de enero de 1970 (tiempo Unix)
         this.completado = false;
     }
 }
