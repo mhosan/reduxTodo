@@ -3,7 +3,9 @@ import { crear } from './todo.actions';
 import { Todo } from './models/todo.models';
 
 export const estadoInicial:Todo[] = [
-    new Todo ('mandar a cagar a todos')
+    new Todo ('mandar a cagar a todos'),
+    new Todo ('pedir que se hagan garchar por un burro viudo'),
+    new Todo ('desearles una picazon de huevos a todos'),
 ];
 
 const _todoReducer = createReducer(
